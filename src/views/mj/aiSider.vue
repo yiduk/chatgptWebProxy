@@ -68,7 +68,8 @@ const goHome =computed(  () => {
              
 
         </div>
-        <div class="flex flex-col  space-y-2 "> 
+			
+        <!--<div class="flex flex-col  space-y-2 "> 
 
             
             <NAvatar  size="large"  round  :src="userInfo.avatar"   v-if="userInfo.avatar"
@@ -79,7 +80,7 @@ const goHome =computed(  () => {
                     <SvgIcon icon="ri:settings-4-line" />
                 </div>
             </HoverButton>
-        </div>
+        </div> -->
     </div>
 </div>
  <Setting v-if="st.show" v-model:visible="st.show" />
