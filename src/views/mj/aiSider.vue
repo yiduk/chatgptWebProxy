@@ -36,7 +36,7 @@ const goHome =computed(  () => {
                      <span class="text-[10px]">对话</span>
                     </div>
                  </template>
-                AI Chat
+                Chat GPT
                 </n-tooltip>
             </a>
 
